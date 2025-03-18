@@ -2,7 +2,10 @@
 
 //Conteúdo
 
+
+
 //Introdução
+
 
 -Listas Encadeadas
 
@@ -26,7 +29,12 @@
 
 
 
+
+
+
 //Objetivos de Aprendizado
+
+
 
 -Compreender os conceitos de estrutura de dados do tipo Lista e Árvore.
 
@@ -44,7 +52,14 @@
 
 
 
+
+
 //Recursos Adicionais
+
+
+
+
+
 
 -Vídeo: Estruturas de Dados - Aula 15 - Árvores Binárias
 
@@ -54,7 +69,12 @@
 
 
 
+
+
 //Contribuições
+
+
+
 
 -Letícia Castro e Júlio Brenno.
 
