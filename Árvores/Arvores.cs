@@ -18,3 +18,34 @@ Class BTreeNo
       public BTreeNo getEsc()
       public BTreeNo getDir()
 }
+
+
+
+//Inserir nó em uma árvore
+
+//Classe que cria a estrutura de nó da àrvore
+
+Class BTree
+{
+      private BTreeNo raiz;
+
+      private BTreeNo inserir(BTreeNo arvore, int novo)
+      {
+            BTreeNo aux = null;
+            if (arvore == null)
+            {
+                  aux.setValor(novo);
+                  return aux;
+            }
+            else if (novo < arvore.getValor())
+                  arvore.setEsq(inserir(arvore.getEsq(), novo));
+            else
+                  arvore.setDir(inserir(arvore.getDir(), novo));
+
+            return arvore;
+      }
+      public void inserirNo(int novo)
+      {
+            raiz = inserir(raiz novo);
+      }
+}
