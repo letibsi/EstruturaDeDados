@@ -22,7 +22,6 @@ Class BTreeNo
 
 
 //Inserir nó em uma árvore
-
 //Classe que cria a estrutura de nó da àrvore
 
 Class BTree
