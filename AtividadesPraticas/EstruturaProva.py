@@ -54,6 +54,37 @@ else:
 
 
 #PILHAS
+
+#Criando uma pilha(lista vazia)
 pilha_de_livros = []
+
+#Empilhando livros (inserindo no final da lista)
+pilha_de_livros.append("Nasce uma estrela")
+pilha_de_livros.append("Bruxas da noite")
+pilha_de_livros.append("Lady killers")
+
+#Visualizando a pilha
+print("Pilha de livros:", pilha_de_livros)
+
+#Desempilhando o livro do topo
+livro_utilizado = pilha_de_livros.pop()
+print("Livro utilizado pelo Sábio:", livro_utilizado)
+
+#Verificando se a pilha está vazia
+print("A pilha está vazia?", len(pilha_de_livros) == 0)
+
+#Visualizando os livros restantes
+print("Livros restantes na pilha:", pilha_de_livros)
+
+#Desempilhando os livros restantes, um por um
+livro_utilizado = pilha_de_livros.pop()
+print("Livro utilizado pelo Sábio:", livro_utilizado)
+
+livro_utilizado = pilha_de_livros.pop()
+print("Livro utilizado pelo Sábio:", livro_utilizado)
+
+#Verificando a pilha ao final
+print("A pilha está vazia ao final?", len(pilha_de_livros) == 0)
+
 
 
